@@ -1,3 +1,12 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+
+
 /* Full page responsive background image*/
 img.bg {
   /* Set rules to fill background */
@@ -34,6 +43,11 @@ div.admin-bg {
 }
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
+  * {
+    padding: none;
+    max-width: 100vw;
+  }
+  
   img.bg {
     left: 50%;
     margin-left: -512px;   /* 50% */
@@ -44,11 +58,16 @@ div.admin-bg {
     left: 50%;
     margin-left: -512px;   /* 50% */
   }
+
+  #main {
+    display: none;
+  }
 }
 
 .header {
   position: relative;
   color: black;
+  overflow: hidden;
 }
 
 .header__image_container {
@@ -59,13 +78,14 @@ div.admin-bg {
 }
 
 .header__image {
-  position: relative;
+  position: absolute;
   left: 50%;
   transform: translateX(-50%);
   height: 100vh;
   width: auto;
   margin: auto;
   max-width: none;
+  overflow: hidden;
 }
 
 .header__text {
@@ -175,7 +195,7 @@ nav a:hover {
 .hotelButtons {
   width: 75%;
   position: absolute;
-  top: 65%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -186,7 +206,7 @@ nav a:hover {
 }
 
 .hotelButton {
-  width: 25%;
+  width: 45%;
   transform: translate(-50%, -50%);
   position: absolute;
   margin-left: auto;
@@ -207,11 +227,11 @@ nav a:hover {
 }
 
 .hotelButton__left {
-  left: 35%;
+  left: 25%;
 }
 
 .hotelButton__right {
-  left: 65%;
+  left: 75%;
 }
 
 .accomodationsImage {
@@ -223,10 +243,10 @@ nav a:hover {
 }
 
 .weddingSection {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .zolaImage {
-  margin-top: 100px;
+  margin-top: 50px;
   max-width: 300px;
 }
