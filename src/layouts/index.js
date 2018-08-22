@@ -10,7 +10,6 @@ import './all.sass'
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'/>
     <Helmet title="Adrienne & Jarrod's Wedding" />
     <Header />
     <Navbar />
