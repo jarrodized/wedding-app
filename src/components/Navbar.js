@@ -9,8 +9,8 @@ const Navbar = () => (
   <nav id="main" className="">
     <ul>
       <li class="logo"><a href="#">A&J</a></li>
-      <li><a href="#story">Our Story</a></li>
-      <li><a href="#destination">Destination</a></li>
+      {/* <li><a href="#story">Our Story</a></li> */}
+      <li><a href="#wedding">Wedding</a></li>
       <li><a href="#lodging">Lodging</a></li>
       <li><a href="#registry">Registry</a></li>
     </ul>

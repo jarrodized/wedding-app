@@ -71,7 +71,7 @@ div.admin-bg {
 .header__text {
   font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
   text-shadow: 2px 2px 0px rgba(0,0,0,0.2), 4px 4px 8px rgba(0,0,0,0.2); 
-  width: 100%;
+  width: 75%;
   position: absolute;
   top: 80%;
   left: 50%;
@@ -94,6 +94,8 @@ nav {
   transition:all 0.5s;
   position: relative;
   z-index: 1;
+  max-width: 1395px;
+  margin: auto;
 }
 
 body.fixed-nav nav {
@@ -114,6 +116,7 @@ nav li {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition:all 0.2s;
 }
 
 li.logo {
@@ -129,6 +132,14 @@ li.logo a {
   color:black;
 }
 
+li:hover {
+  background-color: #677458;
+}
+
+li:hover > a {
+  color: #FFFFFF;
+}
+
 .fixed-nav li.logo {
   max-width:500px;
 }
@@ -137,13 +148,85 @@ nav a {
   text-decoration: none;
   padding:20px;
   display: inline-block;
-  color:#d1d1d1;
+  color:#677458;
   transition:all 0.2s;
   text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #FFFFFF;
 }
 
 .content > div {
   border-bottom: 1px black solid;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+.weddingContent figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#accommodations {
+  position: relative;
+}
+
+.hotelButtons {
+  width: 75%;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hotelButton__container {
+  position: relative;
+}
+
+.hotelButton {
+  width: 25%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  transition:all 0.2s;
+}
+
+.hotelButton__three, .hotelButton__four {
+  display:none;
+}
+
+.hotelButton__container:hover > .hotelButton__one, .hotelButton__container:hover > .hotelButton__two {
+  display:none;
+}
+
+.hotelButton__container:hover > .hotelButton__three, .hotelButton__container:hover > .hotelButton__four {
+  display:block;
+}
+
+.hotelButton__left {
+  left: 35%;
+}
+
+.hotelButton__right {
+  left: 65%;
+}
+
+.accomodationsImage {
+
+}
+
+.weddingContent figure {
+  text-align: center;
+}
+
+.weddingSection {
+  margin-bottom: 200px;
+}
+
+.zolaImage {
+  margin-top: 100px;
+  max-width: 300px;
 }
