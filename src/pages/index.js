@@ -8,7 +8,11 @@ import hotel1 from '../img/hotel-button1.png'
 import hotel2 from '../img/hotel-button2.png'
 import hotel3 from '../img/hotel-button3.png'
 import hotel4 from '../img/hotel-button4.png'
-import zolaImage from '../img/zola-logo-black.png'
+import registrySection from '../img/registry.png'
+import registry1 from '../img/registry-button1.png'
+import registry2 from '../img/registry-button2.png'
+import registry3 from '../img/registry-button3.png'
+import registry4 from '../img/registry-button4.png'
 
 export default class IndexPage extends React.Component {
   render() {
@@ -63,13 +67,32 @@ His et justo partem ponderum. Eu tollit utroque singulis cum. Ne audire albucius
               </div>
             </div>
             <div id='registry' className="">
-              <a href="https://www.zola.com/registry/rougeauwedding">
-                <figure className="">
-                  <img className="zolaImage" src={zolaImage} />
-                </figure>
-              </a>
+              <figure className="">
+                <img className="registryImage" src={registrySection} />
+              </figure>
+              <div className="registryButtons">
+                <a href="https://www.zola.com/registry/rougeauwedding/">
+                  <div className="hotelButton__right hotelButton__container">
+                    <figure className="hotelButton__two hotelButton">
+                      <img className="" src={registry2} />
+                    </figure>
+                    <figure className="hotelButton__four hotelButton">
+                      <img className="" src={registry4} />
+                    </figure>
+                  </div>
+                </a>
+                <a href="tgt.gifts/4fbf8b183e754c99885b0c12a8b528c7">
+                  <div className="hotelButton__left hotelButton__container">
+                    <figure className="hotelButton__one hotelButton">
+                      <img className="" src={registry1} />
+                    </figure>
+                    <figure className="hotelButton__three hotelButton">
+                      <img className="" src={registry3} />
+                    </figure>
+                  </div>
+                </a>
+              </div>
             </div>
-            
             
           </div> 
         </div>
