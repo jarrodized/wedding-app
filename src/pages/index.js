@@ -71,7 +71,7 @@ His et justo partem ponderum. Eu tollit utroque singulis cum. Ne audire albucius
                 <img className="registryImage" src={registrySection} />
               </figure>
               <div className="registryButtons">
-                <a href="https://www.zola.com/registry/rougeauwedding/">
+                <a href="tgt.gifts/4fbf8b183e754c99885b0c12a8b528c7">
                   <div className="hotelButton__right hotelButton__container">
                     <figure className="hotelButton__two hotelButton">
                       <img className="" src={registry2} />
@@ -81,7 +81,7 @@ His et justo partem ponderum. Eu tollit utroque singulis cum. Ne audire albucius
                     </figure>
                   </div>
                 </a>
-                <a href="tgt.gifts/4fbf8b183e754c99885b0c12a8b528c7">
+                <a href="https://www.zola.com/registry/rougeauwedding/">
                   <div className="hotelButton__left hotelButton__container">
                     <figure className="hotelButton__one hotelButton">
                       <img className="" src={registry1} />
