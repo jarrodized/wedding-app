@@ -202,13 +202,12 @@ nav a:hover {
 .registryButtons {
   width: 75%;
   position: absolute;
-  top: 66%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
 
-.hotelButton__container {
+.button__container {
   position: relative;
 }
 
@@ -225,11 +224,11 @@ nav a:hover {
   display:none;
 }
 
-.hotelButton__container:hover > .hotelButton__one, .hotelButton__container:hover > .hotelButton__two {
+.button__container:hover .hotelButton__one, .button__container:hover .hotelButton__two {
   display:none;
 }
 
-.hotelButton__container:hover > .hotelButton__three, .hotelButton__container:hover > .hotelButton__four {
+.button__container:hover .hotelButton__three, .button__container:hover .hotelButton__four {
   display:block;
 }
 
@@ -253,7 +252,16 @@ nav a:hover {
   margin-bottom: 100px;
 }
 
-.zolaImage {
-  margin-top: 50px;
-  max-width: 300px;
+.registry__container {
+  max-width: 25%;
+  margin: auto;
 }
+
+.registryButton__top {
+  top: 66%;
+}
+
+.registryButton__bottom {
+  top: 89%;
+}
+

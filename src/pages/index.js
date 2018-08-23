@@ -44,8 +44,8 @@ His et justo partem ponderum. Eu tollit utroque singulis cum. Ne audire albucius
                 <img className="accomodationsImage" src={accSection} />
               </figure>
               <div className="hotelButtons">
-                <a href="https://www.charlevoixinn.com/">
-                  <div className="hotelButton__right hotelButton__container">
+                <a href="https://www.charlevoixinn.com/" target="_blank">
+                  <div className="hotelButton__right button__container">
                     <figure className="hotelButton__two hotelButton">
                       <img className="" src={hotel2} />
                     </figure>
@@ -54,8 +54,8 @@ His et justo partem ponderum. Eu tollit utroque singulis cum. Ne audire albucius
                     </figure>
                   </div>
                 </a>
-                <a href="https://www.wyndhamhotels.com/americinn/charlevoix-michigan/americinn-lodge-and-suites-charlevoix/overview">
-                  <div className="hotelButton__left hotelButton__container">
+                <a href="https://www.wyndhamhotels.com/americinn/charlevoix-michigan/americinn-lodge-and-suites-charlevoix/overview" target="_blank">
+                  <div className="hotelButton__left button__container">
                     <figure className="hotelButton__one hotelButton">
                       <img className="" src={hotel1} />
                     </figure>
@@ -70,27 +70,31 @@ His et justo partem ponderum. Eu tollit utroque singulis cum. Ne audire albucius
               <figure className="">
                 <img className="registryImage" src={registrySection} />
               </figure>
-              <div className="registryButtons">
-                <a href="tgt.gifts/4fbf8b183e754c99885b0c12a8b528c7">
-                  <div className="hotelButton__right hotelButton__container">
-                    <figure className="hotelButton__two hotelButton">
-                      <img className="" src={registry2} />
-                    </figure>
-                    <figure className="hotelButton__four hotelButton">
-                      <img className="" src={registry4} />
-                    </figure>
+              <div className="registryButtons registryButton__bottom">
+                  <div className="button__container registry__container">
+                    <a href="//tgt.gifts/4fbf8b183e754c99885b0c12a8b528c7" target="_blank">
+                      <figure className="hotelButton__two registryButton">
+                        <img className="" src={registry2} />
+                      </figure>
+                      <figure className="hotelButton__four registryButton">
+                        <img className="" src={registry4} />
+                      </figure>
+                    </a>
                   </div>
-                </a>
-                <a href="https://www.zola.com/registry/rougeauwedding/">
-                  <div className="hotelButton__left hotelButton__container">
-                    <figure className="hotelButton__one hotelButton">
-                      <img className="" src={registry1} />
-                    </figure>
-                    <figure className="hotelButton__three hotelButton">
-                      <img className="" src={registry3} />
-                    </figure>
+              </div>
+              <div  className="registryButtons registryButton__top">
+                
+                  <div className="button__container registry__container">
+                    <a href="https://www.zola.com/registry/rougeauwedding/" target="_blank">
+                      <figure className="hotelButton__one registryButton">
+                        <img className="" src={registry1} />
+                      </figure>
+                      <figure className="hotelButton__three registryButton">
+                        <img className="" src={registry3} />
+                      </figure>
+                    </a>
                   </div>
-                </a>
+                
               </div>
             </div>
             
