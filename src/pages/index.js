@@ -72,7 +72,7 @@ His et justo partem ponderum. Eu tollit utroque singulis cum. Ne audire albucius
               </figure>
               <div className="registryButtons registryButton__bottom">
                   <div className="button__container registry__container">
-                    <a href="//tgt.gifts/4fbf8b183e754c99885b0c12a8b528c7" target="_blank">
+                    <a href="https://www.target.com/gift-registry/gift/4fbf8b183e754c99885b0c12a8b528c7" target="_blank">
                       <figure className="hotelButton__two registryButton">
                         <img className="" src={registry2} />
                       </figure>
