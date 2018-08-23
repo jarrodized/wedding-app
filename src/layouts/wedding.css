@@ -71,7 +71,7 @@ div.admin-bg {
 }
 
 .header__image_container {
-  height: 100vh;
+  height: 90vh;
   width: auto;
   overflow: hidden;
   margin: auto;
@@ -91,7 +91,7 @@ div.admin-bg {
 .header__text {
   font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
   text-shadow: 2px 2px 0px rgba(0,0,0,0.2), 4px 4px 8px rgba(0,0,0,0.2); 
-  width: 75%;
+  width: 60%;
   position: absolute;
   top: 80%;
   left: 50%;
@@ -99,13 +99,8 @@ div.admin-bg {
   text-align: center;
 }
 
-.header__text .main_text {
-  font-size: 8vw;
-  margin-bottom: 2vw;
-}
-
-.header__text .sub_text {
-  font-size: 5vw;
+.header__text img {
+  max-height: 300px;
 }
 
 nav {
@@ -116,6 +111,8 @@ nav {
   z-index: 1;
   max-width: 1395px;
   margin: auto;
+  height: 10vh;
+  max-height: 10vh;
 }
 
 body.fixed-nav nav {
@@ -188,14 +185,24 @@ nav a:hover {
   margin-right: 0;
 }
 
-#accommodations {
+#accommodations, #registry {
   position: relative;
 }
+
 
 .hotelButtons {
   width: 75%;
   position: absolute;
   top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.registryButtons {
+  width: 75%;
+  position: absolute;
+  top: 66%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
