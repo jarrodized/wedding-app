@@ -43,10 +43,8 @@ class IndexPage extends React.Component {
         <div className="header__container">
           <Header />
           <Waypoint
-            debug={true}
             onEnter={this._handleWaypointEnter}
             onLeave={this._handleWaypointLeave}
-            scrollableAncestor={window}
           >
           </Waypoint>
           <Navbar sticky={this.state.stickyNav} />
