@@ -1,0 +1,189 @@
+@media screen and (max-width: 1280px) {
+  #main>.main {
+      padding: 4em 4em 2em;
+  }
+
+  #registry .content {
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .wedding__image {
+    display: none;
+  }
+
+  .spotlight .content {
+    width: 100%;
+  }
+
+  #main ul.logistics li > div {
+    font-size: 3.5vw;
+  }
+
+  .accommodations .content > p {
+    font-size: 2.5vw;
+  }
+
+  .btn-hotel {
+    margin: 0;
+  }
+
+  #nav ul li a {
+    font-size: 1.25em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #header {
+    height: 100%;
+  }
+
+  #nav {
+    display: none;
+  }
+
+  #nav + #main {
+    padding-top: 0;
+  }
+
+  .navwrapper {
+    display: none;
+  }
+
+  .banner__text h2 {
+    font-size: 10vw;
+  }
+  
+  .banner__text span {
+    font-size: 3.5vw;
+  }
+
+  #registry .content {
+    max-width: 100%;
+  }
+
+  .accommodations .content > p {
+    font-size: 3vw;
+  }
+
+  section .content h2 {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .logistics {
+    margin: auto;
+  }
+  #main ul.logistics li {
+    /* display: flex;
+    height: 15rem;
+    align-items: center; */
+    height: unset;
+  }
+  
+  #main ul.logistics li > div {
+    /* font-size: 2em; */
+  }
+  
+  #main ul.logistics li > div h3 {
+    /* color: #C3B69F;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 1.2em; */
+    border-bottom: 1px solid rgb(255, 255, 255, .2);
+  }
+  
+  #main ul.logistics > li:first-child {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  #main ul.logistics > li:last-child {
+    text-align: center; 
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  
+  #main ul.logistics > li:first-child > div {
+    /* display: flex;
+    flex-direction: column;
+    align-content: center; */
+    width: 70%;
+  }
+  
+  #main ul.logistics > li:last-child > div {
+    /* display: flex;
+    flex-direction: column;
+    align-content: center; */
+    width: 70%;
+  }
+  
+  
+  
+  #main ul.logistics > li:last-child:before {
+    /* background-image: linear-gradient(0deg,#A69E84); */
+  }
+  
+  #main ul.logistics > li:last-child:before {
+    /* background-color: hsla(0,0%,100%,.35); */
+  }
+  
+  #main ul.logistics > li:last-child:before {
+    /* float: left;
+    content: "";
+    width: 2px;
+    height: 100%;
+    margin: 0 1em;
+    border-radius: 2px; */
+    width: 100%;
+    height: 2px;
+    margin: 1em 0;
+  }
+
+  .logistics li:first-child, .logistics li:nth-child(2), .logistics li:nth-child(3) {
+    /* margin-top: 0; */
+  }
+  
+  .logistics li {
+    /* width: calc(40% - 2em); */
+    /* margin-left: 2em; */
+    /* margin-top: 3em;
+    padding: 0;
+    width: 50%; */
+    width: 100%;
+  }
+  
+  .logistics li>:last-child {
+    /* margin-bottom: 0; */
+  }
+
+  .btn-hotel {
+    font-size: .75em;
+    padding: .5rem 1rem;
+    width: 80%;
+  }
+
+  .hotels ul {
+
+  }
+
+  .hotels > li {
+    width: 100%;
+    margin: 1em auto;
+  }
+
+  header.major {
+    margin-bottom: 0;
+  }
+
+  #registry .content p {
+    font-size: .65em;
+  }
+
+  #registry .content a > button > div > p {
+    font-size: .6em;
+  }
+}
