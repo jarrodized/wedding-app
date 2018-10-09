@@ -1,0 +1,84 @@
+@import url("https://use.typekit.net/azh0amb.css");
+
+/** Generic **/
+html, body, div, span, applet, 
+object, iframe, h1, h2, h3, h4, 
+h5, h6, p, blockquote, pre, a, 
+abbr, acronym, address, big, cite, 
+code, del, dfn, em, img, ins, 
+kbd, q, s, samp, strike, 
+strong, sub, sup, tt, var, b, u, 
+i, center, dl, dt, dd, ol, ul, 
+li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, 
+thead, tr, th, td, article, aside, 
+canvas, details, embed, figure, 
+figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, 
+summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* font-size: 100%; */
+  font: inherit;
+  vertical-align: baseline;
+  font-family: p22-mackinac-pro, serif;
+}
+
+article, aside, details, figcaption,
+figure, footer, header, hgroup, 
+menu, nav, section {
+  display: block;
+}
+
+a:hover, b, h1, h2, h3, h4, 
+h5, h6, input, select, strong, 
+textarea {
+  /* color: #fff; */
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0 0 .7em;
+  letter-spacing: -.025em;
+}
+
+#main, #main a:hover, #main b, 
+#main h1, #main h2, #main h3, 
+#main h4, #main h5, #main h6, 
+#main input, #main select, 
+#main strong, #main textarea {
+  /* color: #636363; */
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/** Fonts **/
+@font-face {
+  font-family: aurelia;
+  src: url(../fonts/Aurelia.ttf);
+}
+
+/** Fonts **/
+
+/** Links **/
+a {
+  -moz-transition: color 0.2s ease, border-bottom 0.2s ease;
+  -webkit-transition: color 0.2s ease, border-bottom 0.2s ease;
+  -ms-transition: color 0.2s ease, border-bottom 0.2s ease;
+  transition: color 0.2s ease, border-bottom 0.2s ease;
+  text-decoration: none;
+  /* border-bottom: dotted 1px; */
+  color: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}

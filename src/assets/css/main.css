@@ -1,0 +1,433 @@
+/** Header **/
+#header {
+  position: relative;
+  min-height: 500px;
+  width: 100%;
+  /* background: #161415 url(../images/aj-jumping.jpg) no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important; */
+  text-align: center;
+  overflow: hidden;
+  /* max-height: calc(100vh - 50px); */
+}
+
+.banner__text h2 {
+  font-family: aurelia;
+  font-size: 5vw;
+  color: #FFFFFF;
+  font-weight: 100;
+  margin: 0;
+}
+
+.banner__text span {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: 100;
+  font-size: 1.25vw;
+}
+/** Header **/
+
+/** Navigation **/
+
+.navwrapper {
+  height: 10%;
+}
+
+#nav {
+  transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+  color: #636363;
+  position: absolute;
+  width: 100%;
+  /* max-width: calc(100vw - .5em); */
+  /* padding: 5% 0; */
+  background-color: #f7f7f7;
+  /* border-top-left-radius: 0.25em;
+  border-top-right-radius: 0.25em; */
+  cursor: default;
+  text-align: center;
+
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 10%;
+}
+
+#nav a {
+  /* font-family: aurelia; */
+  text-transform: uppercase;
+}
+
+#nav + #main {
+  padding-top: 4.25em;
+}
+
+#nav ul {
+  margin: 0;
+  padding: 0;
+  display:inline-block;
+  list-style: none;
+}
+#nav ul li {
+  transition: margin 0.2s ease;
+  display: inline-block;
+  margin: 0 0.35em;
+  padding: 0;
+  vertical-align: middle;
+}
+
+#nav ul li a {
+  font-size: 1.5em;
+  transition: font-size 0.2s ease;
+  display: inline-block;
+  height: 2.25em;
+  line-height: 2.25em;
+  padding: 0 1.25em;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: inset 0 0 0 1px transparent;
+}
+
+#nav ul li a:hover {
+  background-color: rgba(222, 222, 222, 0.25);
+}
+        
+#nav ul li a:active {
+  background-color: #ffffff;
+  box-shadow: none;
+}
+
+#nav ul li a:active + .is-active {
+  background-color: #ffffff;
+  box-shadow: none;
+}
+
+#nav.alt {
+  position: fixed;
+  top: 0;
+  padding: 0.1em 0em;
+  background-color: rgba(247, 247, 247, 0.95);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  z-index: 10000;
+  overflow: hidden;
+  height: 5%;
+}
+
+#nav.alt ul li {
+  margin: 0 0.175em;
+}
+
+#nav.alt ul li a {
+  font-size: 1.2em;
+}
+/** Navigation **/
+
+/** Sections **/
+
+section:nth-child(odd) {
+  background-color: #677458;
+  color: #FFFFFF;
+}
+
+section:nth-child(even) {
+  background-color: #FFFFFF;
+  color: #090909;
+}
+
+section:nth-child(odd) h2 {
+  color: #FFFFFF;
+}
+
+section:nth-child(even) h2 {
+  color: #090909;
+}
+
+section .content {
+  padding: 2rem;
+}
+
+section .content h2 {
+  font-family: aurelia;
+  font-size: 4rem;
+}
+
+section .content p {
+  text-transform: uppercase;
+  line-height: 150%;
+}
+
+button {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+button p {
+  text-transform: none !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn {
+  margin: 1em;
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+  background-color: #5C694E;
+  border-color: #FFFFFF;
+}
+
+.btn:hover {
+  background-color: #85907A;
+}
+
+#main>.main:first-child {
+  border-top: 0;
+}
+
+#main>.main {
+  padding: 5em 5em 3em;
+  border-top: 1px solid #ddd;
+}
+
+.spotlight {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  /* margin: 0 0 2em; */
+}
+
+/* .spotlight .content {
+  -moz-flex: 1;
+  flex: 1 1;
+} */
+
+.spotlight .content {
+  width: 66.666%;
+  z-index: 10;
+}
+
+.wedding__image {
+  width: 33.333%;
+}
+
+.spotlight .content header.major {
+  margin: 0 0 2em;
+}
+
+header.major {
+  margin-bottom: 3em;
+}
+
+#main ul.logistics li {
+  display: flex;
+  height: 15rem;
+  align-items: center;
+}
+
+#main ul.logistics li > div {
+  font-size: 2em;
+}
+
+#main ul.logistics li > div h3 {
+  color: #C3B69F;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: 1.2em;
+}
+
+#main ul.logistics > li:first-child {
+  text-align: right;
+  justify-content: flex-end;
+}
+
+#main ul.logistics > li:last-child {
+  text-align: left;
+  justify-content: flex-start;
+}
+
+#main ul.logistics > li:first-child > div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#main ul.logistics > li:last-child > div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+
+
+#main ul.logistics > li:last-child:before {
+  background-color: #ddd;
+  background-image: linear-gradient(0deg,#A69E84);
+}
+
+#main ul.logistics > li:last-child:before {
+  background-color: hsla(0,0%,100%,.35);
+}
+
+#main ul.logistics > li:last-child:before {
+  float: left;
+  content: "";
+  width: 2px;
+  height: 100%;
+  margin: 0 1em;
+  border-radius: 2px;
+}
+
+.spotlight .image {
+  border-color: hsla(0,0%,100%,.35);
+}
+.spotlight .image {
+  display: inline-block;
+  margin-left: 4em;
+  padding: .65em;
+  /* border-radius: 100%;
+  border: 1px solid; */
+}
+.image {
+  border-radius: 8px;
+  border: 0;
+  display: inline-block;
+  position: relative;
+}
+/** END Sections **/
+
+/**
+ * Section 1
+ */
+.wedding__image {
+  width: 25%;
+  position: absolute;
+  left: 70%;
+  transform: translate(-50%, 0);
+}
+/**
+ * End Section 1 
+ */
+
+/**
+ * Section 2
+ */
+.hotels li {
+  display: inline-block;
+  margin: 1em .5em;
+}
+
+.btn-hotel {
+  padding: .5rem 5rem;
+  background-color: #85907A;
+  border-color: #85907A;
+  min-width: 40%;
+}
+
+.btn-hotel:hover {
+  background-color: #5C694E;
+}
+
+.accommodations .content > p {
+  font-size: 1.5em;
+}
+
+/**
+ * End Section 2
+ */
+
+ /**
+  * Section 3
+  */
+
+#registry .content {
+  max-width: 50%;
+  margin: auto;
+}
+
+#registry .content p {
+  font-size: 1.3em;
+}
+
+#registry button p {
+  font-size: 1.3em;
+}
+
+.registry__image > div {
+  margin: 1em auto;
+  max-width: 50vw;
+}
+
+#registry .content a > button > div > p {
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+  /**
+   * End Section 3
+   */
+
+@media screen and (max-width: 1280px) {
+  #main>.main {
+      padding: 4em 4em 2em;
+  }
+}
+
+#main>.main {
+    padding: 5em 5em 3em;
+    border-top: 1px solid #ddd;
+}
+article.main, section.main {
+    text-align: center;
+}
+
+.logistics {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  margin: 0 0 3em -2em;
+  padding: 0;
+  list-style: none;
+}
+ul {
+  list-style: disc;
+  /* padding-left: 1em; */
+  z-index: 100;
+}
+ol, ul {
+  list-style: none;
+}
+
+.logistics li:first-child, .logistics li:nth-child(2), .logistics li:nth-child(3) {
+  margin-top: 0;
+}
+
+.logistics li {
+  /* width: calc(40% - 2em); */
+  /* margin-left: 2em; */
+  margin-top: 3em;
+  padding: 0;
+  width: 50%;
+}
+
+.logistics li>:last-child {
+  margin-bottom: 0;
+}
+
+/* p {
+  margin: 0 0 2em;
+} */
+
