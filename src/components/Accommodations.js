@@ -9,6 +9,7 @@ let americInn = {
   phone: "231-237-0988",
   link: "https://www.wyndhamhotels.com/americinn/charlevoix-michigan/americinn-lodge-and-suites-charlevoix/overview",
   hotelButton: true,
+  target: '_blank'
 };
 
 let charlevoixInn = {
@@ -17,7 +18,8 @@ let charlevoixInn = {
   city: "Charlevoix, MI 48720",
   phone: "231-547-0300",
   link: "https://www.charlevoixinn.com/",
-  hotelButton: true
+  hotelButton: true,
+  target: '_blank'
 };
 
 const Accommodations = () => (
@@ -27,8 +29,7 @@ const Accommodations = () => (
         <header className="major">
           <h2>Accommodations</h2>
         </header>
-        <p>Mention the Hall/Rougeau wedding to receive</p>
-        <p>A reservation discount at these hotels.</p>
+        <p>Mention the Hall/Rougeau wedding to receive a reservation discount at these hotels.</p>
         <ul className="hotels">
           <li>
             <Button {...americInn}/>
@@ -37,6 +38,7 @@ const Accommodations = () => (
             <Button {...charlevoixInn}/>
           </li>
         </ul>
+        <p>A shuttle will be available to and from hotels and venue before and after the wedding — schedule coming soon!</p>
       </div>
     </div>
   </section>

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Button = (props) => (
-  <a href={props.link}>
+  <a href={props.link} target={props.target}>
     <button 
       className={`btn-primary btn ${buttonName(props)}`}
       type="button">
