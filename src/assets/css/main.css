@@ -113,7 +113,7 @@
   border-top-right-radius: 0;
   z-index: 10000;
   overflow: hidden;
-  height: 5%;
+  height: 30px;
 }
 
 #nav.alt ul li {
@@ -126,6 +126,9 @@
 /** Navigation **/
 
 /** Sections **/
+section {
+  padding: 3em 0;
+}
 
 section:nth-child(odd) {
   background-color: #677458;
@@ -151,12 +154,13 @@ section .content {
 
 section .content h2 {
   font-family: aurelia;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 section .content p {
   text-transform: uppercase;
   line-height: 150%;
+  font-size: 1.5rem;
 }
 
 button {
@@ -175,11 +179,11 @@ button p {
 }
 
 .btn {
-  margin: 1em;
+  margin: 1rem;
   padding: .5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: .3rem;
+  border-radius: 100rem;
   background-color: #5C694E;
   border-color: #FFFFFF;
 }
@@ -222,11 +226,11 @@ button p {
 }
 
 .spotlight .content header.major {
-  margin: 0 0 2em;
+  margin: 0 0 2rem;
 }
 
 header.major {
-  margin-bottom: 3em;
+  margin-bottom: 3rem;
 }
 
 #main ul.logistics li {
@@ -236,14 +240,14 @@ header.major {
 }
 
 #main ul.logistics li > div {
-  font-size: 2em;
+  /* font-size: 2em; */
 }
 
 #main ul.logistics li > div h3 {
   color: #C3B69F;
   text-transform: uppercase;
   margin-bottom: 0;
-  font-size: 1.2em;
+  font-size: 1.5rem;
 }
 
 #main ul.logistics > li:first-child {
@@ -283,8 +287,8 @@ header.major {
   float: left;
   content: "";
   width: 2px;
-  height: 100%;
-  margin: 0 1em;
+  height: 80%;
+  margin: 0 1rem;
   border-radius: 2px;
 }
 
@@ -293,8 +297,8 @@ header.major {
 }
 .spotlight .image {
   display: inline-block;
-  margin-left: 4em;
-  padding: .65em;
+  margin-left: 5rem;
+  padding: .65rem;
   /* border-radius: 100%;
   border: 1px solid; */
 }
@@ -324,7 +328,7 @@ header.major {
  */
 .hotels li {
   display: inline-block;
-  margin: 1em .5em;
+  margin: 1rem .5rem;
 }
 
 .btn-hotel {
@@ -332,6 +336,7 @@ header.major {
   background-color: #85907A;
   border-color: #85907A;
   min-width: 40%;
+  border-radius: 1rem;
 }
 
 .btn-hotel:hover {
@@ -339,7 +344,7 @@ header.major {
 }
 
 .accommodations .content > p {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 /**
@@ -350,27 +355,37 @@ header.major {
   * Section 3
   */
 
-#registry .content {
-  max-width: 50%;
+#registry .content, #accommodations .content {
+  max-width: 75%;
   margin: auto;
 }
 
 #registry .content p {
-  font-size: 1.3em;
+  font-size: 1.5rem;
+}
+
+#registry button {
+  background-color: #FFFFFF;
+  color: #85907A;
+}
+
+#registry button:hover {
+  background-color: #85907A;
+  color: #FFFFFF;
 }
 
 #registry button p {
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 
 .registry__image > div {
-  margin: 1em auto;
+  margin: 1.5rem auto;
   max-width: 50vw;
 }
 
 #registry .content a > button > div > p {
   text-transform: uppercase;
-  font-size: 1.1em;
+  font-size: 1.25rem;
 }
   /**
    * End Section 3
@@ -427,7 +442,7 @@ ol, ul {
   margin-bottom: 0;
 }
 
-/* p {
-  margin: 0 0 2em;
-} */
+#registry button {
+  margin: 1.5rem;
+}
 

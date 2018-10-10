@@ -1,19 +1,19 @@
 import React from "react";
 
 const Button = (props) => (
-  <a href={props.link}>
+  <a href={props.link} target={props.target}>
     <button 
       className={`btn-primary btn ${buttonName(props)}`}
       type="button">
       {/* {props.name && props.name.length > 0 ? (
         <p>{props.name}</p>
       ) : null} */}
-      { hotelButton(props) }
+      { buttonContent(props) }
     </button>
   </a>
 )
 
-function hotelButton(props) {
+function buttonContent(props) {
   if(props.hotelButton)
   {
     return (
