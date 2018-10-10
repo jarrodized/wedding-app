@@ -1,11 +1,12 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "description": "Gatsby hello world starter",
+  "name": "Adrienne & Jarrod's Wedding",
+  "description": "A site dedicated to December 29th, 2018",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "test": "echo 'Run your tests here'"
   },
   "dependencies": {
     "gatsby": "^2.0.0",
