@@ -4,6 +4,16 @@ import Img from 'gatsby-image';
 
 import Button from './Button';
 
+let zola = {
+  name: "View Zola Registry",
+  link: "https://www.zola.com/registry/rougeauwedding/",
+};
+
+let target = {
+  name: "View Target Registry",
+  link: "https://www.target.com/gift-registry/gift/4fbf8b183e754c99885b0c12a8b528c7",
+};
+
 const Registry = () => (
   <section id="registry" className="main">
     <div className="content">
@@ -22,12 +32,12 @@ const Registry = () => (
           <p>Interested in going in on a gift with someone else?</p>
           <p>We've enabled gift sharing on big ticket items, allowing multiple people to contribute to one item on the zola website.</p>
         </div>
-        <Button name={'View Zola Registry'}/>
+        <Button {...zola}/>
         <div>
           <p>We also figured some of you wanted an excuse to go to target,</p>
           <p>so we registered there too. Thanks for helping us start our next adventure!</p>
         </div>
-        <Button name={'View Target Registry'}/>
+        <Button {...target}/>
       </div>
     </div>
   </section>

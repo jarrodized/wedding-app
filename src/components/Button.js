@@ -8,12 +8,12 @@ const Button = (props) => (
       {/* {props.name && props.name.length > 0 ? (
         <p>{props.name}</p>
       ) : null} */}
-      { hotelButton(props) }
+      { buttonContent(props) }
     </button>
   </a>
 )
 
-function hotelButton(props) {
+function buttonContent(props) {
   if(props.hotelButton)
   {
     return (

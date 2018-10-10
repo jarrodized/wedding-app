@@ -16,7 +16,7 @@ let charlevoixInn = {
   address: "800 Petoskey Ave",
   city: "Charlevoix, MI 48720",
   phone: "231-547-0300",
-  link: "",
+  link: "https://www.charlevoixinn.com/",
   hotelButton: true
 };
 
