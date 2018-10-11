@@ -23,7 +23,7 @@ const Wedding = () => (
               <h3>When</h3>
               <p>December 29, 2018</p>
               <p>Ceremony: 4:30 PM</p>
-              <p>Reception: 6:30 PM</p>
+              <p>Reception: 5:00 PM</p>
             </div>
           </li>
         </ul>
