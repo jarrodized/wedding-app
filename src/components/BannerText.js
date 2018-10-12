@@ -8,7 +8,7 @@ const BannerText = () => (
     style={{ position: `absolute` }}
   >
     <h2>Adrienne & Jarrod</h2>
-    <span>December, 29 2018 - Charlevoix, MI</span>
+    <span>December 29, 2018 - Charlevoix, MI</span>
   </div>
 )
 
