@@ -7,9 +7,9 @@ import "../assets/css/base.css";
 import "../assets/css/main.css";
 import "../assets/css/mobile.css";
 
-import Header from "../components/Header";
-import Nav from "../components/Navigation";
-import Sections from "../components/Sections";
+import Header from "../components/collections/Header";
+import Nav from "../components/collections/Navigation";
+import Sections from "../components/collections/Sections";
 
 class Index extends React.Component {
   constructor(props) {

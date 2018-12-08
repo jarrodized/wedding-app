@@ -2,7 +2,7 @@ import React from "react";
 import { StaticQuery, graphql } from "gatsby";
 import Img from 'gatsby-image';
 
-import Button from './Button';
+import Button from './utilities/Button';
 
 let zola = {
   name: "View Zola Registry",
@@ -24,7 +24,8 @@ const Registry = () => (
       </header>
       <div>
         <div>
-          <p>We hope our Zola registry is easy for you! Everything is online, so you never have to leave your couch.</p>
+          <p>We hope our Zola registry is easy for you!</p>
+          <p>Everything is online, so you never have to leave your couch.</p>
         </div>
         <div>
           <Icons />
