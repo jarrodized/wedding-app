@@ -37,7 +37,7 @@ function getText(props) {
       <h3>{props.title1}</h3>
       <p>{props.text1}</p>
       <p>{props.text4}</p>
-      <h3>{props.title2}</h3>
+      <h3 className='second-header'>{props.title2}</h3>
       <p>{props.text2}</p>
       <p>{props.text3}</p>
     </div>
@@ -77,7 +77,7 @@ function boxLink(props) {
   if(props.url) {
     return (
       <div className="things-link">
-        <a href={props.url}>
+        <a href={props.url} target="_blank">
           <button className="btn-primary btn " type="button">
             <div><p>{props.linkText}</p></div>
           </button>

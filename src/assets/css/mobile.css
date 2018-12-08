@@ -339,8 +339,16 @@
     font-size: .65rem;
   }
 
+  .shuttle-times-subcontainer span {
+    font-size: 1rem;
+  }
+
+  #main ul.logistics li > div p {
+    font-size: 1rem;
+  }
+
   .hotels li {
-    margin: 0;
+    margin: 0.5rem 0;
   }
 
   .things-to-do-mobile .things-box-one-third .things-box-image {
