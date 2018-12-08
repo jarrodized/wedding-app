@@ -654,5 +654,10 @@ ol, ul {
 {
   color: #C3B69F;
   font-weight: 600;
-  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.second-header
+{
+  margin-top: 15px;
 }
