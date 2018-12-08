@@ -1,6 +1,6 @@
 import React from "react";
 
-import Button from "./Button";
+import Button from "./utilities/Button";
 
 let americInn = {
   name: "AmericInn Lodge & Suites",

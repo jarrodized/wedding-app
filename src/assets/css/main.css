@@ -1,7 +1,7 @@
 /** Header **/
 #header {
   position: relative;
-  min-height: 500px;
+  /* min-height: 500px; */
   width: 100%;
   /* background: #161415 url(../images/aj-jumping.jpg) no-repeat top center;
   background-size: cover !important;
@@ -13,7 +13,7 @@
 
 .banner__text h2 {
   font-family: aurelia;
-  font-size: 5vw;
+  font-size: 5rem;
   color: #FFFFFF;
   font-weight: 100;
   margin: 0;
@@ -23,7 +23,7 @@
   text-transform: uppercase;
   color: #FFFFFF;
   font-weight: 100;
-  font-size: 1.25vw;
+  font-size: 1.25rem;
 }
 /** Header **/
 
@@ -79,7 +79,7 @@
 }
 
 #nav ul li a {
-  font-size: 1.5em;
+  font-size: 1.25em;
   transition: font-size 0.2s ease;
   display: inline-block;
   height: 2.25em;
@@ -120,9 +120,9 @@
   margin: 0 0.175em;
 }
 
-#nav.alt ul li a {
+/* #nav.alt ul li a {
   font-size: 1.2em;
-}
+} */
 /** Navigation **/
 
 /** Sections **/
@@ -148,19 +148,15 @@ section:nth-child(even) h2 {
   color: #090909;
 }
 
-section .content {
-  padding: 2rem;
-}
-
 section .content h2 {
   font-family: aurelia;
-  font-size: 5rem;
+  font-size: 4.5rem;
 }
 
 section .content p {
   text-transform: uppercase;
   line-height: 150%;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 
 button {
@@ -181,7 +177,7 @@ button p {
 .btn {
   margin: 1rem;
   padding: .5rem 1rem;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   line-height: 1.5;
   border-radius: 100rem;
   background-color: #5C694E;
@@ -315,6 +311,8 @@ header.major {
  */
 .wedding__image {
   width: 25%;
+  max-width: 600px;
+  max-height: 600px;
   position: absolute;
   left: 70%;
   transform: translate(-50%, 0);
@@ -328,7 +326,7 @@ header.major {
  */
 .hotels li {
   display: inline-block;
-  margin: 1rem .5rem;
+  margin: 1rem 0rem;
 }
 
 .btn-hotel {
@@ -344,7 +342,7 @@ header.major {
 }
 
 .accommodations .content > p {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 
 /**
@@ -361,7 +359,7 @@ header.major {
 }
 
 #registry .content p {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 
 #registry button {
@@ -446,3 +444,198 @@ ol, ul {
   margin: 1.5rem;
 }
 
+/* SHUTTLE TIMES */
+.shuttle-times-container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+}
+
+.shuttle-schedule-container > .content > p
+{
+  font-size: 1.1rem;
+}
+
+.shuttle-times-subcontainer
+{
+  display: flex;
+  flex-direction: column;
+  min-width: 270px;
+  padding: 10px 30px;
+  margin: 5px 10px;
+  border: 3px #C3B69F solid;
+  border-radius: 10px;
+}
+
+.shuttle-times-header
+{
+  margin-bottom: 10px;
+}
+
+.shuttle-times-header > span
+{
+  /* color: #C3B69F; */
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.shuttle-times-subcontainer > h3
+{
+  color: #C3B69F;
+  font-weight: 600;
+  margin: 0;
+}
+
+.things-to-do-mobile
+{
+  display: none;
+}
+
+.things-subcontainer
+{
+  height: 300px;
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start;
+}
+
+.things-box-container
+{
+  display: flex;
+  justify-content: center; 
+  flex-direction: row;
+  margin: 15px 1vw;
+}
+
+
+
+.things-subcontainer > .things-box-container .things-text
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 175px;
+  padding: 10px 30px;
+  border: 3px #85907A solid;
+  border-radius: 10px;
+}
+
+.things-subcontainer > .things-box-one-third .things-text
+{
+  max-width: 230px;
+  width: 20vw;
+}
+
+.things-subcontainer > .things-box-two-thirds .things-text
+{
+  max-width: calc(2vw + 526px);
+  width: 43vw;
+  width: calc(42vw + 66px);
+  height: 245px;
+}
+
+.things-subcontainer > .things-box-container:first-child
+{
+  margin-left: 0;
+}
+
+.things-subcontainer > .things-box-container:last-child
+{
+  margin-right: 0;
+}
+
+
+
+.things-to-do-container .content
+{
+  padding: 0;
+}
+
+
+
+
+.things-to-do-mobile .things-subcontainer
+{
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: unset;
+}
+
+.things-to-do-mobile .things-box-two-thirds .things-text
+{
+  width: 64vw;
+  width: calc(62vw + 66px);
+  height: 175px;
+}
+
+.things-to-do-mobile .things-box-one-third .things-text
+{
+  width: 30vw;
+}
+
+.things-to-do-mobile .things-box-container:nth-child(even) {
+  margin-left: 0;
+}
+
+.things-to-do-mobile .things-box-container:nth-child(odd) {
+  margin-right: 0;
+}
+
+.things-to-do-mobile .things-box-container:first-child {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.things-text
+{
+  font-size: 1.1rem;
+}
+
+.things-box-one-third .things-text
+{
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+
+  color: #FFFFEF;
+  font-weight: 600;
+}
+
+.things-box-image .gatsby-image-wrapper
+{
+  position: unset !important;
+  overflow: visible !important;
+}
+
+.things-box-one-third .things-box-image
+{
+  background: #000000;
+  max-width: 296px;
+  width: calc(20vw + 66px);
+  height: 100%;
+  max-height: 201px;
+  position: absolute;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.things-box-one-third .things-box-image img
+{
+  /* width: calc(20vw + 66px); */
+  height: 201px !important;
+  position: absolute;
+  z-index: 0;
+  opacity: .4 !important;
+}
+
+
+.things-box-two-thirds h3
+{
+  color: #C3B69F;
+  font-weight: 600;
+  margin-top: 5px;
+}
