@@ -38,7 +38,7 @@ const Accommodations = () => (
             <Button {...charlevoixInn}/>
           </li>
         </ul>
-        <p>A shuttle will be available to and from hotels and venue before and after the wedding — schedule coming soon!</p>
+        <p>A shuttle will be available to and from hotels and venue before and after the wedding!</p>
       </div>
     </div>
   </section>

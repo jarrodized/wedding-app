@@ -24,13 +24,13 @@ const Nav = (props) => (
           </Scroll>
         </li>
         <li>
-          <Scroll type="id" element="things-to-do">
-            <a href="#things-to-do">Things To Do</a>
+          <Scroll type="id" element="shuttle-schedule">
+            <a href="#shuttle-schedule">Shuttle Service</a>
           </Scroll>
         </li>
         <li>
-          <Scroll type="id" element="shuttle-schedule">
-            <a href="#shuttle-schedule">Shuttle Service</a>
+          <Scroll type="id" element="things-to-do">
+            <a href="#things-to-do">Things To Do</a>
           </Scroll>
         </li>
         <li>

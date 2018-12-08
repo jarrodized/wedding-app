@@ -92,17 +92,23 @@
   #registry .content p,
   .accommodations .content > p, 
   .shuttle-schedule-container > .content > p,
-  #registry .content p {
-    font-size: 1rem;
+  #registry .content p,
+  section .content p
+  {
+    font-size: .8rem;
   }
 
   .things-text p, .things-text
   {
-    font-size: .9rem;
+    font-size: .8rem;
   }
 
   section .content h2 {
     font-size: 3em;
+  }
+
+  section .content h3 {
+    font-size: .9rem;
   }
 
   .logistics {
@@ -165,6 +171,10 @@
   {
     margin: 5px auto;
     width: 270px;
+  }
+
+  .hotels li {
+    margin: 0;
   }
 }
 
@@ -233,6 +243,41 @@
   #main ul.logistics li > div h3 {
     font-size: 1.4rem;
   }
+
+  #registry .content p,
+  .accommodations .content > p, 
+  .shuttle-schedule-container > .content > p,
+  #registry .content p,
+  section .content p
+  {
+    font-size: .7rem;
+  }
+
+  .things-text p, .things-text
+  {
+    font-size: .7rem;
+  }
+
+  #registry .content a > button > div > p
+  {
+    font-size: .8rem;
+  }
+
+  #registry button {
+    margin: 0.75rem;
+  }
+
+  section .content h2 {
+    font-size: 2em;
+  }
+
+  section .content h3 {
+    font-size: .8rem;
+  }
+
+  .hotels li {
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -248,7 +293,7 @@
   .accommodations .content > p, 
   .shuttle-schedule-container > .content > p, 
   #registry .content p {
-    font-size: .8rem;
+    font-size: .7rem;
   }
 
   .banner__text span {
@@ -259,14 +304,18 @@
     font-size: 1.2rem;
   }
 
+  .things-text p, .things-text
+  {
+    font-size: .7rem;
+  }
 
 
 
   .things-to-do-mobile .things-box-two-thirds .things-text
   {
     display: flex;
-    width: 54vw;
-    width: calc(52vw + 66px);
+    width: 70vw;
+    width: calc(72vw-6);
     height: 175px;
     padding: 5px 5vw;
     flex-grow: 1;
@@ -275,8 +324,8 @@
   .things-to-do-mobile .things-box-one-third .things-text
   {
     display: flex;
-    width: 25vw;
-    height: 150px;
+    width: 30vw;
+    height: 125px;
     padding: 5px 5vw;
     flex-grow: 1;
   }
@@ -287,6 +336,22 @@
   }
 
   section .content p {
-    font-size: .8rem;
+    font-size: .65rem;
+  }
+
+  .hotels li {
+    margin: 0;
+  }
+
+  .things-box-one-third .things-box-image {
+      background: #000000;
+      max-width: 296px;
+      width: 40vw;
+      height: 100%;
+      max-height: 125px;
+      position: absolute;
+      border-radius: 10px;
+      overflow: hidden;
+      z-index: 0;
   }
 }
