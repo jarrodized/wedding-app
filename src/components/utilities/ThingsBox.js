@@ -77,7 +77,7 @@ function boxLink(props) {
   if(props.url) {
     return (
       <div className="things-link">
-        <a href={props.url}>
+        <a href={props.url} target="_blank">
           <button className="btn-primary btn " type="button">
             <div><p>{props.linkText}</p></div>
           </button>
