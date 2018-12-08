@@ -36,6 +36,7 @@ function getText(props) {
     <div>
       <h3>{props.title1}</h3>
       <p>{props.text1}</p>
+      <p>{props.text4}</p>
       <h3>{props.title2}</h3>
       <p>{props.text2}</p>
       <p>{props.text3}</p>
