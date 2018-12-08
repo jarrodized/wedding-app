@@ -38,7 +38,7 @@ const ShuttleSchedule = () => (
           </div>
         </div>
         <p>PLEASE ARRIVE AT LEAST FIVE MINUTES BEFORE DEPARTURE TIMES</p>
-        <p>TO ENSURE SHUTTLE STAYS ON SCHEDULE</p>
+        <p>TO ENSURE SHUTTLE STAYS ON SCHEDULE.</p>
       </div>
     </div>
   </section>
